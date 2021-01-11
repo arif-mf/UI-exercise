@@ -53,16 +53,9 @@ Build an Angular application which does the following:
         </ol>
       </li>
     </ol>
-  a. pressing the Log In button sends the user to the Log In page
-  b. clicking on the company name in the User column goes to the company web site
-  c. clicking on the right arrow displays the next 10 posts (disabled if no more posts)
-  d. clicking on the left arrow displays the previous10 posts (disabled if no previous
-  posts)
-  e. in logged in state, New Post and Log Out buttons are shown
-  i. New Post button navigates to Post Edit page in empty state
-  ii. Log Out button kills user session and refreshes Home page
-7. in logged in state, clicking on post title navigates to Post Edit page in edit state
-a. The user should only be able to edit their own posts
+7. in logged in state, clicking on post title navigates to Post Edit page in edit state:
+
+      a. The user should only be able to edit their own posts</li>
 ## Login page 
 
 Build the application according to the specifications detailed in the PDF document. Refer to the wireframes for UI layout.
@@ -82,27 +75,36 @@ page in logged in state
 1. The same form should be used for submitting new posts, as well as editing existing
 posts
 2. The form contains the following elements:
-a. Title and Message fields
-b. Delete button (in edit state only)
-c. Save/Cancel button
-d. “Go back to Home page” link (displayed in header)
+    <ol type="a">
+      <li>Title and Message fields</li>
+      <li>Delete button (in edit state only)</li>
+      <li>Save/Cancel button</li>
+      <li>“Go back to Home page” link (displayed in header)</li>
+    </ol>
 3. The form should enforce the following validation rules:
-a. the Title and Message fields cannot be empty
-b. title cannot be longer than 200 characters
-c. message cannot be longer than 2000 characters
-d. validation errors should appear below the field that is in error
-e. Save and Cancel buttons should be enabled only when form has been modified
-and has no validation errors
-f. if the user attempts to navigate away from the page with unsaved data (for
-example, when clicking on “Go back to home page” header), display a
-confirmation dialog and allow the user to remain on the page
-4. The form should support the following actions (NOTE: the REST endpoint does not
-actually post or update a resource, so the data must be managed locally, i.e. faked):
-a. when a new post is saved, the user should be sent back to the Home page, with
-the newest post shown first in the table
-b. when an existing post is updated, the user should be sent back to the Home
-page, with a message indicating that the post was saved
-c. when a post is deleted, show a confirmation window, e.g. “Are you sure you want
-to delete this post?”
+    <ol type="a">
+      <li>the Title and Message fields cannot be empty</li>
+      <li>title cannot be longer than 200 characters</li>
+      <li>message cannot be longer than 2000 characters</li>
+      <li>validation errors should appear below the field that is in error</li>
+      <li>Save and Cancel buttons should be enabled only when form has been modified and has no validation errors</li>
+      <li>if the user attempts to navigate away from the page with unsaved data (for example, when clicking on “Go back to home page” header), display a confirmation dialog and allow the user to remain on the page</li>
+    </ol>
+
+4. The form should support the following actions (NOTE: the REST endpoint does not actually post or update a resource, so the data must be managed locally, i.e. faked):
+
+
+    <ol type="a">
+      <li>when a new post is saved, the user should be sent back to the Home page, with the newest post shown first in the table</li>
+      <li>when an existing post is updated, the user should be sent back to the Home page, with a message indicating that the post was saved</li>
+      <li>when a post is deleted, show a confirmation window, e.g. “Are you sure you want to delete this post?”</li>
+    </ol>
 # Wireframes
+<!-- #1
+![alt text](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-1-of-2.png?raw=true)
+
+#2
+![alt text](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-2-of-2.png?raw=true)
+ -->
+
 Refer to the attached wireframes for guidance on page layouts 
