@@ -26,19 +26,19 @@ Build an Angular application which does the following:
 # Application Requirements
 
 ## Home page
-1. When launching the application, the user is sent to the Home page by default
-2. If the user is not logged in, show "Log In" button
-3. If the user is logged in, show a “Welcome” message with the user's full name
-4. Keep the user logged in (across browser sessions) until the user logs out
-5. Display a table with the following details:
-    <ol type="a>
-      <li>a User column containing the user’s full name and company name</li>
-      <li>a Post column containing the post title and post body</li>
-      <li>show 10 rows per page</li>
-      <li>a "New Post" button, which is visible after user logs in</li>
-      <li>a Log Out button, which is visible after the user logs in</li>
-      <li>a set of left/right arrows (buttons) for paging</li>
-    </ol>
+  1. When launching the application, the user is sent to the Home page by default
+  2. If the user is not logged in, show "Log In" button
+  3. If the user is logged in, show a “Welcome” message with the user's full name
+  4. Keep the user logged in (across browser sessions) until the user logs out
+  5. Display a table with the following details.
+      <ol type="a">
+        <li>a User column containing the user’s full name and company name</li>
+        <li>a Post column containing the post title and post body</li>
+        <li>show 10 rows per page</li>
+        <li>a "New Post" button, which is visible after user logs in</li>
+        <li>a Log Out button, which is visible after the user logs in</li>
+        <li>a set of left/right arrows (buttons) for paging</li>
+      </ol>
 6. The Home page should support the following actions:
     <ol type="a">
       <li>pressing the Log In button sends the user to the Log In page</li>
@@ -46,7 +46,7 @@ Build an Angular application which does the following:
       <li>clicking on the right arrow displays the next 10 posts (disabled if no more posts)</li>
       <li>clicking on the left arrow displays the previous10 posts (disabled if no previous posts)</li>
       <li>
-        in logged in state, New Post and Log Out buttons are shown
+        <div>in logged in state, New Post and Log Out buttons are shown</div>
         <ol type="i">
           <li>New Post button navigates to Post Edit page in empty state</li>
           <li>Log Out button kills user session and refreshes Home page</li>
@@ -55,7 +55,7 @@ Build an Angular application which does the following:
     </ol>
 7. in logged in state, clicking on post title navigates to Post Edit page in edit state:
 
-      a. The user should only be able to edit their own posts</li>
+      a. The user should only be able to edit their own posts
 ## Login page 
 
 Build the application according to the specifications detailed in the PDF document. Refer to the wireframes for UI layout.
