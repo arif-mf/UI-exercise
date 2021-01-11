@@ -57,15 +57,12 @@ Build an Angular application which does the following:
 
       a. The user should only be able to edit their own posts
 ## Login page 
-
-Build the application according to the specifications detailed in the PDF document. Refer to the wireframes for UI layout.
-
-Submit your completed assignment by doing either of the following:
-1. Publish on your own Github public repository
-2. zip up the project (excluding the node_modules folder) and send to your Microfocus recruiter contact
 1. Contains the following fields:
-a. User Name field
-b. Log In button
+    <ol type="a">
+      <li>User Name field</li>
+      <li>Log In button</li>
+    </ol>
+
 2. Log In button should be disabled until the user name is entered
 3. If the user name does not match a user from the /users endpoint, display an error
 message
@@ -99,6 +96,13 @@ posts
       <li>when an existing post is updated, the user should be sent back to the Home page, with a message indicating that the post was saved</li>
       <li>when a post is deleted, show a confirmation window, e.g. “Are you sure you want to delete this post?”</li>
     </ol>
+
+## Build the application according to the specifications detailed in this readme or PDF document. Refer to the wireframes for UI layout.
+
+Submit your completed assignment by doing either of the following:
+1. Publish on your own Github public repository
+2. zip up the project (excluding the node_modules folder) and send to your Microfocus recruiter contact
+
 # Wireframes
 <!-- #1
 ![alt text](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-1-of-2.png?raw=true)
