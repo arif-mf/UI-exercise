@@ -4,7 +4,8 @@ Angular exercise for UI interview candidates
 # Instructions
 This repository contains instructions and wireframe diagrams for the assignment  that we are asking front-end candidates to complete.
 
-Please download the PDF and 2 images locally for easier viewing (you'll need to enlarge the images to see the wireframes clearly).
+You can either download the [PDF Instruction](https://github.com/arif-mf/UI-exercise/blob/master/MicroFocus-UI-exercise-specifications.pdf?raw=true) and 2 images([#1](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-1-of-2.png?raw=true), [#2](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-2-of-2.png?raw=true)) locally for easier viewing or continue reading this README.
+> you'll need to enlarge the images to see the wireframes clearly 
 
 # Objective
 Build an Angular application which does the following:
@@ -106,11 +107,5 @@ Submit your completed assignment by doing either of the following:
 2. zip up the project (excluding the node_modules folder) and send to your Microfocus recruiter contact
 
 # Wireframes
-<!-- #1
-![alt text](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-1-of-2.png?raw=true)
 
-#2
-![alt text](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-2-of-2.png?raw=true)
- -->
-
-Refer to the attached wireframes for guidance on page layouts 
+Refer to the attached wireframes ([#1](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-1-of-2.png?raw=true), [#2](https://github.com/arif-mf/UI-exercise/blob/master/MF-UI-exercise-wireframes-2-of-2.png?raw=true)) for guidance.
