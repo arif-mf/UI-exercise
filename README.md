@@ -26,19 +26,19 @@ Build an Angular application which does the following:
 # Application Requirements
 
 ## Home page
-  1. When launching the application, the user is sent to the Home page by default
-  2. If the user is not logged in, show "Log In" button
-  3. If the user is logged in, show a “Welcome” message with the user's full name
-  4. Keep the user logged in (across browser sessions) until the user logs out
-  5. Display a table with the following details.
-      <ol type="a">
-        <li>a User column containing the user’s full name and company name</li>
-        <li>a Post column containing the post title and post body</li>
-        <li>show 10 rows per page</li>
-        <li>a "New Post" button, which is visible after user logs in</li>
-        <li>a Log Out button, which is visible after the user logs in</li>
-        <li>a set of left/right arrows (buttons) for paging</li>
-      </ol>
+1. When launching the application, the user is sent to the Home page by default
+2. If the user is not logged in, show "Log In" button
+3. If the user is logged in, show a “Welcome” message with the user's full name
+4. Keep the user logged in (across browser sessions) until the user logs out
+5. Display a table with the following details.
+    <ol type="a">
+      <li>a User column containing the user’s full name and company name</li>
+      <li>a Post column containing the post title and post body</li>
+      <li>show 10 rows per page</li>
+      <li>a "New Post" button, which is visible after user logs in</li>
+      <li>a Log Out button, which is visible after the user logs in</li>
+      <li>a set of left/right arrows (buttons) for paging</li>
+    </ol>
 6. The Home page should support the following actions:
     <ol type="a">
       <li>pressing the Log In button sends the user to the Log In page</li>
@@ -53,9 +53,11 @@ Build an Angular application which does the following:
         </ol>
       </li>
     </ol>
-7. in logged in state, clicking on post title navigates to Post Edit page in edit state:
+7. in logged in state, clicking on post title navigates to Post Edit page in edit state
+    <ol type="a">
+      <li>The user should only be able to edit their own posts</li>
+    </ol>
 
-      a. The user should only be able to edit their own posts
 ## Login page 
 1. Contains the following fields:
     <ol type="a">
