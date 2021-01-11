@@ -45,7 +45,7 @@ Build an Angular application which does the following:
       <li>pressing the Log In button sends the user to the Log In page</li>
       <li>clicking on the company name in the User column goes to the company web site</li>
       <li>clicking on the right arrow displays the next 10 posts (disabled if no more posts)</li>
-      <li>clicking on the left arrow displays the previous10 posts (disabled if no previous posts)</li>
+      <li>clicking on the left arrow displays the previous 10 posts (disabled if no previous posts)</li>
       <li>
         <div>in logged in state, New Post and Log Out buttons are shown</div>
         <ol type="i">
